@@ -495,28 +495,7 @@ background: linear-gradient(90deg, rgba(116,223,223,1) 0%, rgba(102,240,102,1) 6
       <div class="line"></div>
 </div>
           
-          <div class="parentbox">
-          <div class="element">
-                <h6><?php echo $position16 ?></h6>
-                <?php if (!empty($imagePath16)) : ?>
-            <img class="profile_" src="<?php echo $imagePath16; ?>" alt="User Image"></a>
-          <?php else : ?>
-            <img class="profile_" src="image/Coming_Soon.jpg" alt="Default Image"></a>
-          <?php endif; ?>
-                <h6 class="name"><?php echo $fullname16 ?></h6>
-            </div>
-
-            <div class="element">
-                <h6><?php echo $position17 ?></h6>
-                <?php if (!empty($imagePath17)) : ?>
-            <img class="profile_" src="<?php echo $imagePath17; ?>" alt="User Image"></a>
-          <?php else : ?>
-            <img class="profile_" src="image/Coming_Soon.jpg" alt="Default Image"></a>
-          <?php endif; ?>
-                <h6 class="name"><?php echo $fullname17 ?></h6>
-            </div>
-      
-          </div>
+         
 
         <section class="sec-con">
 
