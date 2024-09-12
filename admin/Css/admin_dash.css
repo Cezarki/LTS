@@ -1,0 +1,236 @@
+
+
+.myModal{
+    position: absolute;
+    display: none;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    z-index: 1000;
+}
+
+.container-modals{
+    position: relative;
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    top: 90px;
+    left: 330px;
+    border-radius: 10px;
+}
+
+.document-container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    min-width: 320px;
+    border: 1px solid #d0d4db;
+    }
+
+    .link{
+        color: white;
+        text-decoration: none;
+    }
+
+    .modClose{
+        position: relative;
+        top: -12px;
+        float: right;
+    }
+
+    .modClose:hover , .modClose:focus{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+
+    .btn-center{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    header{
+        position: -webkit-sticky; /* For older Safari browsers */
+        position: sticky;        /* Standard property for other modern browsers */
+        top: 0;                  /* Distance from the top of the viewport */
+        color: white;            /* Text color of the links */
+        z-index: 1000;           /* Ensure the navbar stays on top of other content */
+      }
+
+      #navs{
+        background-color: #0c4aad;
+      }
+
+     #navs .navbar-nav .nav-link {
+        color: white;
+    }
+
+   #navs .navbar-nav .nav-link:hover {
+        color: black;
+    }
+
+    #drop{
+        position: absolute;
+        top: 40px;
+         left: -30px;
+    }
+
+    .navbar-brand{
+    color: white;
+    padding: 6px;
+    }
+
+    #navbarDropdown:hover{
+        color: gray;
+    }
+
+.prof-modal{
+    position: absolute;
+    top: -60px;
+    display: none;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 124vh;
+    z-index: 1000;
+}
+
+#prof-btn{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#prof-btn:hover{
+    background-color: #ab1703;
+}
+
+#dropdown-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#dropdown-item:hover{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ab1703;
+}
+
+.profile{
+    position: relative;
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    top: 150px;
+    left: 330px;
+    border-radius: 10px;
+}
+
+#Xclose{
+    position: relative;
+        top: -12px;
+        float: right;
+}
+
+#Xclose:hover , #Xclose:focus{
+      cursor: pointer;
+        background-color: black;
+        color: white;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer{
+    padding-top: 30vh;
+}
+
+
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.search > div{
+    position: relative;
+    top: 70px;
+}
+
+
+
+
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #drop{
+        position: absolute;
+        text-align: center;
+        top: 40px;
+        left: -60px;
+    }
+
+    .dots {
+        display: none;
+}
+
+#prof-modal{
+    height: 185vh;
+}
+
+
+
+.profile{
+    position: relative;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    top: 150px;
+    left: 99px;
+    border-radius: 10px;
+}
+
+.container-modals{
+    position: relative;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    top: 70px;
+    left: 99px;
+    border-radius: 10px;
+}
+
+.myModal{
+    position: absolute;
+    display: none;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 185vh;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.search{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.search > div{
+    position: relative;
+    left: 130px;
+ }
+ 
+
+tr th , td{
+    font-size: 2vh;
+}
+    
+}
+

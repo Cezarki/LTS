@@ -1,0 +1,210 @@
+
+header{
+    position: -webkit-sticky; /* For older Safari browsers */
+    position: sticky;        /* Standard property for other modern browsers */
+    top: 0;                  /* Distance from the top of the viewport */
+    color: white;            /* Text color of the links */
+    z-index: 1000;
+            /* Ensure the navbar stays on top of other content */
+  }
+
+ #navs .navbar-nav .nav-link {
+    color: white;
+}
+
+#navs .navbar-nav .nav-link:hover {
+    background-color: #ab1703;
+    color: white;
+    border-radius: 6px;
+}
+
+.navbar-brand {
+    color: white;
+    padding: 6px;
+}
+
+#drop{
+    position: absolute; left: -160px;
+    top: 48px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.dropdown-menu .dropdown-item{
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    color: white;
+    background-color: #ab1703;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.old-english-text {
+font-family: "Old English Text MT", serif;
+}
+
+.times-new-roman {
+font-family: "Times New Roman", Times, serif;
+font-style: italic;
+font-weight: bold;
+}
+
+.logo{
+position: absolute;
+top: 95px;
+left: 300px;
+}
+
+.navdown{
+display: flex;
+justify-content: flex-end;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+#drop{
+    position: relative;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.dots {
+    display: none;
+}
+
+.logo{
+position: relative;
+left: 10px;
+top: -10px;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#drop{
+    position: relative;
+     left: -30px;
+    top: -1px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.dropdown-menu > .dropdown-item{
+   
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    color: white;
+    background-color: #ab1703;
+}
+
+.navbar-brand{
+    margin-bottom: 5px;
+}
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.logo{
+position: relative;
+left: 10px;
+top: -10px;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.logo{
+    position: relative;
+left: 10px;
+top: -10px;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.logo{
+    position: relative;
+left: 10px;
+top: -10px;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.logo{
+position: absolute;
+top: 95px;
+left: 160px;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.logo{
+position: absolute;
+top: 95px;
+left: 280px;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+
+}

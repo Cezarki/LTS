@@ -1,0 +1,17 @@
+.footer{
+    display: block;
+    padding-top: 30vh;
+    width: 100%;
+    }
+
+    .search{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .search > div{
+        position: relative;
+        top: 70px;
+    }
